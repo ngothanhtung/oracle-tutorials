@@ -1,3 +1,0 @@
-﻿Error: 9/24/2019 3:07:06 PM: ScriptExecutionService.cs(145)	ScriptExecutionRequestProcessorAsync() :	Specified URI 'file:///d%3A/Working/GitHub/oracle-tutorials/session10/customers_audit_trg.sql' does not have existing connection
-Error: 9/24/2019 3:07:06 PM: ScriptExecutionService.cs(145)	ScriptExecutionRequestProcessorAsync() :	   at OracleVSCodeServer.Services.ScriptExecutionService.ScriptExecutionService.ValidateParameters(IContext`1 context, ScriptExecutionRequestParams executeParams)
-   at OracleVSCodeServer.Services.ScriptExecutionService.ScriptExecutionService.ScriptExecutionRequestProcessorAsync(IContext`1 context, ScriptExecutionRequestParams executeParams)
