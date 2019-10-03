@@ -23,7 +23,7 @@ SELECT
 FROM 
  rank_demo;
  
- 
+-- 
 SELECT 
  product_name, 
  list_price, 
@@ -31,6 +31,8 @@ SELECT
 FROM 
  products;
  
+ 
+
  
 WITH cte_products AS (
  SELECT 
