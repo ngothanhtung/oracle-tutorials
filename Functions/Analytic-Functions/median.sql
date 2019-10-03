@@ -1,5 +1,5 @@
 SELECT * FROM salesman_performance ORDER BY SALES DESC;
-
+1323237.445
 SELECT MEDIAN(SALES)
 from salesman_performance;
 

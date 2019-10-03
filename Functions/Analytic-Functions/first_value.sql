@@ -7,8 +7,11 @@ SELECT
     product_id, 
     product_name,
     list_price, 
-    FIRST_VALUE(product_name) 
-    OVER (ORDER BY list_price) first_product
+    FIRST_VALUE(product_name)   
+    OVER (ORDER BY list_price) first_product,
+    
+    FIRST_VALUE(list_price)   
+    OVER (ORDER BY list_price) first_product_list_price
 FROM 
     products
 WHERE 

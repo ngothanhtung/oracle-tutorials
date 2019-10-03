@@ -1,3 +1,6 @@
+
+-- PERCENT_RANK: Co bao nhieu % greater lon hon > (DESC)
+-- CUME_DIST: Co bao nhieu % greater or equal >= (DESC)
 SELECT * FROM salesman_performance WHERE YEAR = 2017 ORDER BY SALES ;
 
 SELECT 
@@ -24,7 +27,7 @@ SELECT
 FROM 
     salesman_performance
 WHERE 
-    year in (2016, 2017);   
+    year in (2015,2016, 2017);   
     
     
     

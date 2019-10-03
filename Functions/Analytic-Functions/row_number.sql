@@ -37,6 +37,8 @@ FROM
 )
 SELECT * FROM cte_products
 WHERE row_num <=3;
+
+
 -- First, the PARTITION BY clause divided the rows into partitions by category id.
 -- Then, the ORDER BY clause sorted the products in each category by list prices in descending order.
 -- Next, the ROW_NUMBER() function is applied to each row in a specific category id. It re-initialized the row number for each category.
