@@ -78,3 +78,12 @@ WHERE
     price_rank <= 4;
  
  
+ 
+ --
+ 
+SELECT RANK(1586804.44) WITHIN GROUP(ORDER BY SALES DESC) FROM salesman_performance WHERE YEAR = 2017;
+
+SELECT S.*, RANK() OVER(ORDER BY SALES DESC)  FROM salesman_performance S WHERE YEAR = 2017;
+
+SELECT  * FROM salesman_performance WHERE YEAR = 2017 ORDER BY SALES DESC;
+ 
