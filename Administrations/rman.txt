@@ -1,0 +1,7 @@
+RMAN target /
+CONFIGURE DEFAULT DEVICE TYPE TO disk;
+CONFIGURE DEVICE TYPE DISK BACKUP TYPE TO COPY;
+CONFIGURE CONTROLFILE AUTOBACKUP ON;
+
+
+// https://smarttechways.com/2019/03/08/rman-06149-cannot-backup-database-in-noarchivelog-mode/
