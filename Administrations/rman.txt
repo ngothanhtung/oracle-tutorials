@@ -5,3 +5,4 @@ CONFIGURE CONTROLFILE AUTOBACKUP ON;
 
 
 // https://smarttechways.com/2019/03/08/rman-06149-cannot-backup-database-in-noarchivelog-mode/
+// https://docs.oracle.com/cd/B19306_01/backup.102/b14192/bkup003.htm
